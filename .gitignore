@@ -1,0 +1,24 @@
+
+
+# Environment variables
+.env
+.env.*
+
+# Keep example environment files
+!.env.example
+!server/.env.example
+
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build files
+client/dist/
+
+# Logs
+*.log
+
+# Operating system
+.DS_Store
+Thumbs.db
